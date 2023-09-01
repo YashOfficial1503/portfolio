@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Portfolio</title>
+    <link rel="stylesheet" href="index.css">
+    <!-- Add this link element inside the <head> section to import the Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Font+Name&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <!-- Navigation Bar -->
+    
+<nav>
+    <div class="logo">PORTFOLIO</div>
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+    <!-- Divider -->
+    <div class="divider"></div>
+
+    <!-- Home Section -->
+    <!-- Name, Profession, and Photo Section -->
+    <section class="hero">
+        <div class="content">
+            <h1>Mr. Yash Bhandare.</h1>
+            <p>Web Developer | Designer | Freelancer</p>
+        </div>
+        <div class="photo">
+            <img src="./yash.jpg" alt="Your Photo">
+        </div>
+    </section>
+
+        <!-- About Me Section -->
+    <section id="about">
+        <div class="about-content">
+            <div class="about-text">
+                <h2>About Me</h2>
+                <p>Hello there! I'm Mr. Yash Bhandare, a dedicated Full Stack Developer with a passion for creating exceptional digital experiences.</p>
+                <p>My journey in the world of web development started with a fascination for coding, and it has grown into a fulfilling career. I specialize in designing and building web applications that not only work flawlessly but also look stunning.</p>
+                <p>I believe in the power of clean and efficient code to drive innovation. My goal is to craft user-friendly and visually appealing solutions that make a positive impact.</p>
+            </div>
+            <div class="about-image">
+                <img src="./yash2.jpg" alt="Your Photo">
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Portfolio Section -->
+<section id="portfolio">
+    <h2>Portfolio</h2>
+    <div class="portfolio-grid">
+        <div class="portfolio-item">
+            <img src="./WordPress.webp" alt="Project 1">
+            <h3>Blooging Website.</h3>
+            <p>"Discover captivating stories and insightful articles on [Your Blog Name]. Explore a world of creativity, knowledge, and inspiration. Join our vibrant community of writers and readers today!"</p>
+            <a href="project1-details.html">View Details</a>
+        </div>
+        <div class="portfolio-item">
+            <img src="./9anime.webp" alt="Project 2">
+            <h3>Project 2</h3>
+            <p>"Embark on an epic anime adventure at [Your Anime Website]. Dive into a realm of captivating series, exciting reviews, and fandom insights. Explore, indulge, and embrace your inner otaku!"</p>
+            <a href="project2-details.html">View Details</a>
+        </div>
+        <!-- Add more portfolio items as needed -->
+    </div>
+</section>
+
+
+        <!-- Contact Section -->
+    <section id="contact">
+        <div class="contact-container">
+            <h2>Contact Me</h2>
+            <p>Have a question or want to collaborate? Feel free to reach out!</p>
+            <form id="contact-form">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2023 Your Portfolio</p>
+    </footer>
+</body>
+</html>
